@@ -121,9 +121,5 @@ cfio_finalize(...);
 
 ```
 
-More about CFIO
----------------
-
-[Go to wiki](https://github.com/CFIO/CFIO/wiki)
 
 
