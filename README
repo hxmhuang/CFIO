@@ -1,0 +1,12 @@
+#autoreconf
+autoreconf -i
+
+
+#configure
+$ ./configure --with-dependency=/home/hxm/WORK/nEver/esm-soft --prefix=/home/hxm/WORK/zc/program/cfio-1 CC=mpiicc FC=mpiifort
+
+#configure
+$ ./configure --with-dependency=/opt/esm-dev --prefix=/home/zc/opt/cfio CC=mpiicc FC=mpiifort
+
+#note
+CFIO-1.20 by WWC

@@ -1,0 +1,77 @@
+Making install in src
+make[1]: Entering directory `/work/hxm_work/zc/cfio-1/src'
+Making install in client
+make[2]: Entering directory `/work/hxm_work/zc/cfio-1/src/client'
+Making install in C
+make[3]: Entering directory `/work/hxm_work/zc/cfio-1/src/client/C'
+make[4]: Entering directory `/work/hxm_work/zc/cfio-1/src/client/C'
+test -z "/home/hxm/WORK/zc/program/cfio-1/lib" || mkdir -p -- "/home/hxm/WORK/zc/program/cfio-1/lib"
+ /usr/bin/install -c -m 644 'libcfio.a' '/home/hxm/WORK/zc/program/cfio-1/lib/libcfio.a'
+ ranlib '/home/hxm/WORK/zc/program/cfio-1/lib/libcfio.a'
+test -z "/home/hxm/WORK/zc/program/cfio-1/include" || mkdir -p -- "/home/hxm/WORK/zc/program/cfio-1/include"
+ /usr/bin/install -c -m 644 'cfio.h' '/home/hxm/WORK/zc/program/cfio-1/include/cfio.h'
+ /usr/bin/install -c -m 644 '../../common/cfio_types.h' '/home/hxm/WORK/zc/program/cfio-1/include/cfio_types.h'
+ /usr/bin/install -c -m 644 '../../common/cfio_error.h' '/home/hxm/WORK/zc/program/cfio-1/include/cfio_error.h'
+make[4]: Leaving directory `/work/hxm_work/zc/cfio-1/src/client/C'
+make[3]: Leaving directory `/work/hxm_work/zc/cfio-1/src/client/C'
+Making install in Fortran
+make[3]: Entering directory `/work/hxm_work/zc/cfio-1/src/client/Fortran'
+make[4]: Entering directory `/work/hxm_work/zc/cfio-1/src/client/Fortran'
+test -z "/home/hxm/WORK/zc/program/cfio-1/lib" || mkdir -p -- "/home/hxm/WORK/zc/program/cfio-1/lib"
+ /usr/bin/install -c -m 644 'libcfiof.a' '/home/hxm/WORK/zc/program/cfio-1/lib/libcfiof.a'
+ ranlib '/home/hxm/WORK/zc/program/cfio-1/lib/libcfiof.a'
+test -z "/home/hxm/WORK/zc/program/cfio-1/include" || mkdir -p -- "/home/hxm/WORK/zc/program/cfio-1/include"
+ /usr/bin/install -c -m 644 'cfio.mod' '/home/hxm/WORK/zc/program/cfio-1/include/cfio.mod'
+make[4]: Leaving directory `/work/hxm_work/zc/cfio-1/src/client/Fortran'
+make[3]: Leaving directory `/work/hxm_work/zc/cfio-1/src/client/Fortran'
+make[3]: Entering directory `/work/hxm_work/zc/cfio-1/src/client'
+make[4]: Entering directory `/work/hxm_work/zc/cfio-1/src/client'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/work/hxm_work/zc/cfio-1/src/client'
+make[3]: Leaving directory `/work/hxm_work/zc/cfio-1/src/client'
+make[2]: Leaving directory `/work/hxm_work/zc/cfio-1/src/client'
+make[2]: Entering directory `/work/hxm_work/zc/cfio-1/src'
+make[3]: Entering directory `/work/hxm_work/zc/cfio-1/src'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/work/hxm_work/zc/cfio-1/src'
+make[2]: Leaving directory `/work/hxm_work/zc/cfio-1/src'
+make[1]: Leaving directory `/work/hxm_work/zc/cfio-1/src'
+Making install in test
+make[1]: Entering directory `/work/hxm_work/zc/cfio-1/test'
+Making install in client
+make[2]: Entering directory `/work/hxm_work/zc/cfio-1/test/client'
+Making install in C
+make[3]: Entering directory `/work/hxm_work/zc/cfio-1/test/client/C'
+make[4]: Entering directory `/work/hxm_work/zc/cfio-1/test/client/C'
+test -z "/home/hxm/WORK/zc/program/cfio-1/bin" || mkdir -p -- "/home/hxm/WORK/zc/program/cfio-1/bin"
+  /bin/sh ../../../libtool --mode=install /usr/bin/install -c 'func_test' '/home/hxm/WORK/zc/program/cfio-1/bin/func_test'
+/usr/bin/install -c func_test /home/hxm/WORK/zc/program/cfio-1/bin/func_test
+  /bin/sh ../../../libtool --mode=install /usr/bin/install -c 'perform_test_pnetcdf' '/home/hxm/WORK/zc/program/cfio-1/bin/perform_test_pnetcdf'
+/usr/bin/install -c perform_test_pnetcdf /home/hxm/WORK/zc/program/cfio-1/bin/perform_test_pnetcdf
+  /bin/sh ../../../libtool --mode=install /usr/bin/install -c 'perform_test' '/home/hxm/WORK/zc/program/cfio-1/bin/perform_test'
+/usr/bin/install -c perform_test /home/hxm/WORK/zc/program/cfio-1/bin/perform_test
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/work/hxm_work/zc/cfio-1/test/client/C'
+make[3]: Leaving directory `/work/hxm_work/zc/cfio-1/test/client/C'
+make[3]: Entering directory `/work/hxm_work/zc/cfio-1/test/client'
+make[4]: Entering directory `/work/hxm_work/zc/cfio-1/test/client'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/work/hxm_work/zc/cfio-1/test/client'
+make[3]: Leaving directory `/work/hxm_work/zc/cfio-1/test/client'
+make[2]: Leaving directory `/work/hxm_work/zc/cfio-1/test/client'
+make[2]: Entering directory `/work/hxm_work/zc/cfio-1/test'
+make[3]: Entering directory `/work/hxm_work/zc/cfio-1/test'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/work/hxm_work/zc/cfio-1/test'
+make[2]: Leaving directory `/work/hxm_work/zc/cfio-1/test'
+make[1]: Leaving directory `/work/hxm_work/zc/cfio-1/test'
+make[1]: Entering directory `/work/hxm_work/zc/cfio-1'
+make[2]: Entering directory `/work/hxm_work/zc/cfio-1'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/work/hxm_work/zc/cfio-1'
+make[1]: Leaving directory `/work/hxm_work/zc/cfio-1'
